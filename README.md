@@ -13,6 +13,7 @@ A Java-based banking system simulation that implements core banking operations a
 - **OOP Principles** — Inheritance, encapsulation, abstraction, and polymorphism
 
 ## 📊 Diagram
+<img width="424" height="310" alt="image" src="https://github.com/user-attachments/assets/f04c95b4-fc87-419e-88b7-ab136cf45139" />
 
 ![BankUml Hierarchical Diagram](./BankUml_Hierarchical_Diagram.drawio.svg)
 
