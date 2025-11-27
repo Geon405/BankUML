@@ -15,8 +15,6 @@ A Java-based banking system simulation that implements core banking operations a
 ## 📊 Diagram
 <img width="424" height="310" alt="image" src="https://github.com/user-attachments/assets/f04c95b4-fc87-419e-88b7-ab136cf45139" />
 
-![BankUml Hierarchical Diagram](./BankUml_Hierarchical_Diagram.drawio.svg)
-
 This diagram demonstrates the classes within the BankUml project template. Inheritance relationships are shown with solid line arrows, whilst implied relationships are shown with dashed line arrows. This is only a reference for the template, and you are free to change the application architecture as you see fit!
 
 ## 🚀 How to Run
