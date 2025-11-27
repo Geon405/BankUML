@@ -12,26 +12,45 @@ A Java-based banking system simulation that implements core banking operations a
 - **UML-Driven Architecture** — Classes and relationships based on UML diagrams
 - **OOP Principles** — Inheritance, encapsulation, abstraction, and polymorphism
 
----
+## 📊 Diagram
 
-## 📐 UML Overview
+![BankUml Hierarchical Diagram](./BankUml_Hierarchical_Diagram.drawio.svg)
 
-This project uses a UML model to design core components such as accounts, transactions, and user interfaces.  
-- **Solid arrows** represent inheritance  
-- **Dashed arrows** represent dependencies and relationships  
+This diagram demonstrates the classes within the BankUml project template. Inheritance relationships are shown with solid line arrows, whilst implied relationships are shown with dashed line arrows. This is only a reference for the template, and you are free to change the application architecture as you see fit!
 
-> The UML is used as a reference. You can extend or modify it if needed.
+## 🚀 How to Run
 
----
+Make sure you have the following installed:
 
-## 🚀 Getting Started
+- Java
+- Maven (if Lombok is missing or not working correctly)
 
-### Requirements
-- **Java 8+**
-- **Maven** (optional — helpful for managing dependencies)
-
-### Clone the repository
+1. Clone the repository:
 
 ```bash
-git clone https://github.com/<your-username>/BankUML.git
-cd BankUML
+git clone https://github.com/M-PERSIC/BankUml.git
+cd BankUml
+```
+
+2. Compile the code:
+
+```bash
+javac -cp "libs/*" bank/*.java 
+```
+
+3. Run the program:
+
+```bash
+# Linux/MAC
+java -cp ".:libs/*" bank.Main
+# Windows
+java -cp ".;libs/*" bank.Main
+```
+
+To redownload the Lombok jar:
+
+```bash
+mvn dependency:copy-dependencies -DoutputDirectory=./libs
+```
+
+---
