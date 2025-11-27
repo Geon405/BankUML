@@ -1,6 +1,8 @@
-## 🏦BankUML
+## 🏦 BankUML: Banking System Simulation
 
-A Java-based banking system simulation that implements core banking operations and account management using UML design principles. The project includes features such as user authentication, multiple account types, and transaction handling. Designed as a study resource for UML-driven software modeling and Java application development.
+Welcome to **BankUML**, a Java-based banking application designed to simulate core banking operations such as account management, transactions, and receipts.
+
+This project demonstrates the use of **Object-Oriented Programming (OOP)** principles, including **Inheritance, Encapsulation, Abstraction, and Polymorphism**, strictly following UML design guidelines.
 
 ---
 
